@@ -5,18 +5,25 @@ h1{
   font-family: 'Anton', sans-serif;
   color: red;
   font-size: 100px;
+  margin-top: 1px;
 }
 h2{
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Permanent Marker', cursive;
   color: white;
-  position-left: 1000px;
+  weight: bold;
+  margin-bottom: 1px;
+
+
 }
 
 #input-name{
   color: red;
   weight: 50px;
-  height: 50px;
   font-size: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
 
 
