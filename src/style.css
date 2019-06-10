@@ -7,7 +7,17 @@ h1{
   font-size: 100px;
 }
 h2{
-  font-family: 'Merienda', cursive;
+  font-family: 'Russo One', sans-serif;
   color: white;
-  text-align: top;
+  position-left: 1000px;
+}
+
+#input-name{
+  color: red;
+  weight: 50px;
+  height: 50px;
+  font-size: 50px;
+
+
+
 }
