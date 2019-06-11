@@ -1,5 +1,6 @@
 body {
   background: url(https://assets1.ignimgs.com/2019/05/02/detectivepikachumovie-blogroll-1556817397661_1280w.jpg)
+
 }
 h1{
   font-family: 'Anton', sans-serif;
@@ -26,6 +27,27 @@ h2{
   margin-left: none;
   display: block;
   margin-top: none;
+  box-shadow: 1px 5px 15px 2px rgb(223, 216, 216);
 
+}
+
+#button-cifrar{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  background: transparent;
+  border: 5px solid red;
+  margin-top: 50px;
+  margin-right: 50px;
+  color: white;
+}
+
+#button-descifrar{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  background: transparent;
+  border: 5px solid red;
+  margin-top: 50px;
+  margin-right: 50px;
+  color: white;
 
 }
