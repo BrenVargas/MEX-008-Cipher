@@ -4,21 +4,36 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Martel|Maven+Pro|Merienda|Permanent+Marker|Roboto|Russo+One|Signika&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Barrio|Bowlby+One+SC|Bungee+Shade|Carme|Gruppo|Holtwood+One+SC|Monofett|Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <div id="root">
-      <h2>Organización de periodistas y reporteros mexicanos</h2>
-      <h1>LA LEY<br>
-        EL ORDEN</h1>
+  <main id="bg-image"></main>
 
-    <input id= "input-name" type="text" placeholder="Ingresa tu mensaje">
-    <button id= "button-cifrar">Cifrar</button>
-    <button id= "button-descifrar">Descifrar</button>
+  <section id="first-section" class="disappear">
+    <h2>organización de periodistas y reporteros mexicanos</h2>
+    <h1>LA LEY Y EL ORDEN</h1>
+    <p>comparte de manera segura tu ubicación con tus colegas</p>
 
-    </div>
-    <script src="cipher.js"></script>
+    <button id="button-access">INGRESAR</button>
+  </section>
+
+
+  <section id="second-section" class="appear">
+
+    <button type="button" name="button-code">CIFRAR</button>
+    <button type="button" name="button-decode">DESCIFRAR</button>
+    <input type="text" name="input-code" value="">
+    <input type="text" name="input-decode" value="">
+
+  </section>
+
+
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
+
+
+
   </body>
 </html>
