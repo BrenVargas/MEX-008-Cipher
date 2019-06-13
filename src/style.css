@@ -56,3 +56,19 @@ p{
 
   display:none;
 }
+
+#button-code{
+  margin-left: 1px;
+}
+
+#input-code{
+  font-size: 30px;
+}
+
+#button-decode{
+  margin-left: 1px;
+}
+
+#input-decode{
+  font-size: 30px;
+}

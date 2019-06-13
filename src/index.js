@@ -11,9 +11,10 @@ const firstSection=document.getElementById("first-section");
 const secondSection=document.getElementById("second-section");
 const buttonAccess=document.getElementById("button-access");
 
+
 const getWelcomeSection = () => {
-  welcomeSection.classList.add("disappear");
+  firstSection.classList.add("appear");
   secondSection.classList.remove("appear");
 };
 
- buttonAccess.addEventListerner("click", getWelcomeSection);
+ buttonAccess.addEventListener("click", getWelcomeSection);
