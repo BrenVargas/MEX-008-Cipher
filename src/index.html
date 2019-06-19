@@ -9,25 +9,21 @@
   </head>
 
   <body>
-  <main id="bg-image"></main>
+    
+    <section id="primera-seccion" class="appear">
+      <h2>organización de periodistas y reporteros mexicanos</h2>
+      <h1>LA LEY Y EL ORDEN</h1>
+      <p>comparte de manera segura tu ubicación con tus colegas</p>
+      <button id="boton-acceso">INGRESAR</button>
+    </section>
 
-  <section id="first-section" class="disappear">
-    <h2>organización de periodistas y reporteros mexicanos</h2>
-    <h1>LA LEY Y EL ORDEN</h1>
-    <p>comparte de manera segura tu ubicación con tus colegas</p>
-
-    <button id="button-access">INGRESAR</button>
-  </section>
-
-
-  <section id="second-section" class="appear">
-
-    <button id="button-code">CIFRAR</button>
-    <input id="input-code" type="text">
-    <button id="button-decode">DESCIFRAR</button>
-    <input id="input-decode" type="text">
-
-  </section>
+    <section id="segunda-seccion" class="disappear">
+      <textarea name="name" rows="8" cols="80" id="mensaje-a-cifrar" placeholder="Mensaje a cifrar"></textarea>
+      <input type="number" id="numero-offset">
+      <button type="button" id="boton-cifrar">CIFRAR</button>
+      <button type="button" id="boton-descifrar">DESCIFRAR</button>
+      <textarea name="name" rows="8" cols="80" id="mensaje-descifrado" placeholder="Mensaje a descifrar"></textarea>
+    </section>
 
 
     <script src="index.js"></script>

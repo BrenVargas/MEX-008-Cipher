@@ -1,20 +1,33 @@
-// const showSecondSection = () => {
-//   let aparecer = document.getElementById("second-section");
-//   aparecer.style.display= "block";
-//   return aparecer;
-// }
-//
-// const enlace = document.getElementById("button-access");
-// enlace.addEventListerner("click", showSecondSection);
+const primeraSeccion=document.getElementById("primera-seccion");
+const botonAcceso=document.getElementById("boton-acceso");
 
-const firstSection=document.getElementById("first-section");
-const secondSection=document.getElementById("second-section");
-const buttonAccess=document.getElementById("button-access");
+const segundaSeccion=document.getElementById("segunda-seccion");
+
+const botonCifrar=document.getElementById("boton-cifrar");
+const botonDescifrar=document.getElementById("boton-descifrar");
 
 
-const getWelcomeSection = () => {
-  firstSection.classList.add("appear");
-  secondSection.classList.remove("appear");
+
+let seccionBienvenida = () => {
+  primeraSeccion.classList.add("disappear");
+  segundaSeccion.classList.remove("disappear");
 };
 
- buttonAccess.addEventListener("click", getWelcomeSection);
+botonAcceso.addEventListener("click", seccionBienvenida);
+
+
+
+botonCifrar.addEventListener("click", () => {
+   let numeroOffset=document.getElementById("numero-offset").value;
+   let mensajeACifrar=document.getElementById("mensaje-a-cifrar").value;
+   const result = window.cipher.encode(numeroOffset, mensajeACifrar)
+   let mensajeDescifrado=document.getElementById("mensaje-descifrado")
+   mensajeDescifrado.value = result
+})
+
+
+
+botonDescifrar.addEventListener("click", () => {
+   let numeroOffset=document.getElementById("numero-offset");
+   ;
+})
