@@ -1,3 +1,25 @@
+# Nombre del proyecto: LA LEY Y EL ORDEN 
+
+Mi proyecto de aplicación web está pensado para que periodistas puedan compartir su ubicación de manera segura con otros colegas.
+
+Solamente deben ingresar el código (offset) dado por la otra persona para cifrar y descifrar el mensaje.
+
+El diseño de la página es simple; cuenta con dos pantallas; una de ingreso, en la que no se necesita registrarse y una segunda donde se introduce el mensaje a cifrar y descifrar.
+
+Dado que es una página para periodistas y reporteros me decidí por un fondo con objetos relacionados con la profesión, de acuerdo a los usuarios, una pluma, libreta, computadora y café son sus herramientas diarias.
+
+También opté por una imagen limpia sin tantos botones y pestañas y dando un blur para que se destaque que el mensaje, por eso tampoco cambié el fondo de la segunda pantalla.
+
+Me decidí por este proyecto dada la crítica situación de seguridad que se vive en el país, siendo los periodistas uno de los gremios más vulnerables.
+
+Mi idea es que usen la página web cuando tenga que hacer un intercambio de información sensible y reducir los riesgos a los que están expuestos.
+
+Tan solo en lo que va de 2019 han asesinado a nueve comunicadores en el país.
+
+El nombre de la página lo tomé del programa estadounidense La ley y el Orden,donde detectives resuelven los casos más complejos para conseguir la justicia y la verdad.
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
