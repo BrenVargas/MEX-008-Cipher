@@ -1,45 +1,38 @@
 .disappear{
-  display: none;
+ display: none;
 }
 
 body{
-  background-image: url("./img/fondook.jpg");
-  /* background-image: url("img/pluma.png");
-  filter: opacity(100px);
-  background-size: auto; */
+ background-image: url("./img/fondook.jpg");
+ background-size: cover;
 
 }
-/*
-.bg-image{
-  background-image: url(http://cort.as/-Jx1f);
-  filter: blur(0.1);
-
-} */
 
 
 .seccion-1-diseno{
- text-align: center;
+text-align: center;
 }
 
 .cajas-diseno{
- text-align: center;
- margin-top: 100px;
+text-align: center;
+margin-top: 100px;
 }
 
 .botones-diseno{
- text-align: center;
- margin-top: 80px;
+text-align: center;
+margin-top: 80px;
+
 
 }
 
 .cajas-texto{
- font-family: 'Gruppo', cursive;
- color:tomato;
- font-weight: 900;
- font-size: 40px;
- text-align: center;
- /* opacity: 0.3; */
- background: transparent;
+font-family: 'Gruppo', cursive;
+color:tomato;
+font-weight: 900;
+font-size: 40px;
+text-align: center;
+/* opacity: 0.3; */
+background: transparent;
 
 
 
@@ -47,59 +40,69 @@ body{
 
 
 h1{
- font-family: 'Gruppo', cursive;
- /* text-align: center; */
- align-items: center;
- font-size: 100px;
- font-weight: bolder;
- color: tomato;
- margin-top: 1px;
- margin-bottom: 1px;
+font-family: 'Gruppo', cursive;
+/* text-align: center; */
+align-items: center;
+font-size: 100px;
+font-weight: bolder;
+color: tomato;
+margin-top: 1px;
+margin-bottom: 1px;
 
 }
 
 h2{
- font-family: 'Satisfy', cursive;
- margin-top: 200px;
- color: white;
- /* text-align: center; */
- /* font-size: 40px; */
+font-family: 'Satisfy', cursive;
+margin-top: 200px;
+color: white;
+/* text-align: center; */
+/* font-size: 40px; */
 
 
 }
 
 p{
- font-family: 'Satisfy', cursive;
- /* text-align: center; */
- font-size: 30px;
- color: white;
+font-family: 'Satisfy', cursive;
+/* text-align: center; */
+font-size: 30px;
+color: white;
 
 }
 
-#boton-acceso{
- font-family: 'Gruppo', cursive;
- font-size: 50px;
- background: transparent;
- font-weight: 600;
+#boton-acceso:hover {
+ background-color: lightseagreen;
+}
 
- /* margin-left: 800px; */
 
+#boton-acceso {
+background-color: tomato;
+font-family: 'Gruppo', cursive;
+font-size: 50px;
+background: transparent;
+font-weight: 600;
+
+/* margin-left: 800px; */
+}
+
+.boton-estilo:hover {
+ background-color: lightseagreen;
 }
 
 .boton-estilo{
- font-family: 'Gruppo', cursive;
- font-size: 50px;
- font-weight: 600;
- background: transparent;
+font-family: 'Gruppo', cursive;
+color: black;
+font-size: 50px;
+font-weight: 600;
+background: transparent;
 
- /* margin-left: 1500px; */
+/* margin-left: 1500px; */
 
 }
 
 .offset-diseno{
- text-align: center;
- margin-left: 550px;
- margin-top: 20px;
- /* opacity: 0.3; */
+text-align: center;
+margin-left: 550px;
+margin-top: 20px;
+/* opacity: 0.3; */
 
 }
