@@ -3,26 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Aldrich|Barrio|Bowlby+One+SC|Bungee+Shade|Carme|Gruppo|Holtwood+One+SC|Monofett|Nanum+Gothic+Coding&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    
-    <section id="primera-seccion" class="appear">
-      <h2>organización de periodistas y reporteros mexicanos</h2>
-      <h1>LA LEY Y EL ORDEN</h1>
-      <p>comparte de manera segura tu ubicación con tus colegas</p>
-      <button id="boton-acceso">INGRESAR</button>
-    </section>
+    <div class="bg-image"></div>
+
+    <div class="seccion-1-diseno">
+      <section id="primera-seccion" class="appear">
+        <h2>organización de periodistas y reporteros mexicanos</h2>
+        <h1>LA LEY Y EL ORDEN</h1>
+        <p>comparte de manera segura tu ubicación con tus colegas</p>
+        <button id="boton-acceso">INGRESAR</button>
+      </section>
+    </div>
 
     <section id="segunda-seccion" class="disappear">
-      <textarea name="name" rows="8" cols="80" id="mensaje-a-cifrar" placeholder="Mensaje a cifrar"></textarea>
-      <input type="number" id="numero-offset">
-      <button type="button" id="boton-cifrar">CIFRAR</button>
-      <button type="button" id="boton-descifrar">DESCIFRAR</button>
-      <textarea name="name" rows="8" cols="80" id="mensaje-descifrado" placeholder="Mensaje a descifrar"></textarea>
+
+      <div class="cajas-diseno">
+        <textarea name="name" id="mensaje-a-cifrar-arriba" class="cajas-texto" placeholder="Mensaje a cifrar"></textarea>
+        <textarea name="name" id="mensaje-descifrado-abajo" class="cajas-texto" placeholder="Mensaje descifrado"></textarea>
+      </div>
+
+      <input type="number" id="numero-offset" class="offset-diseno" placeholder="No. código">
+
+      <div class="botones-diseno">
+        <button type="button" id="boton-cifrar" class="boton-estilo">CIFRAR</button>
+        <button type="button" id="boton-descifrar" class="boton-estilo">DESCIFRAR</button>
+      </div>
+
     </section>
 
 

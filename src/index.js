@@ -19,15 +19,18 @@ botonAcceso.addEventListener("click", seccionBienvenida);
 
 botonCifrar.addEventListener("click", () => {
    let numeroOffset=document.getElementById("numero-offset").value;
-   let mensajeACifrar=document.getElementById("mensaje-a-cifrar").value;
+   let mensajeACifrar=document.getElementById("mensaje-a-cifrar-arriba").value;
    const result = window.cipher.encode(numeroOffset, mensajeACifrar)
-   let mensajeDescifrado=document.getElementById("mensaje-descifrado")
+   let mensajeDescifrado=document.getElementById("mensaje-descifrado-abajo")
    mensajeDescifrado.value = result
 })
 
 
 
 botonDescifrar.addEventListener("click", () => {
-   let numeroOffset=document.getElementById("numero-offset");
-   ;
+  let numeroOffset=document.getElementById("numero-offset").value;
+  let mensajeDescifrado=document.getElementById("mensaje-a-cifrar-arriba").value;
+  const result = window.cipher.decode(numeroOffset, mensajeDescifrado)
+  let mensajeACifrar=document.getElementById("mensaje-descifrado-abajo")
+  mensajeACifrar.value = result
 })
